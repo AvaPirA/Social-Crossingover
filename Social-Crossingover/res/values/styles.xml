@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VkAuthor"></style>
+    <style name="VkText"></style>
+    <style name="VkDate"></style>
+
+
+    <style name="TwAuthor"></style>
+
+    <style name="InstAuthor"></style>
+
+
+</resources>

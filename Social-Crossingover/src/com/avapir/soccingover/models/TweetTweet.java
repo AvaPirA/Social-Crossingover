@@ -5,7 +5,9 @@ import java.util.Date;
 /** User: Alpen Ditrix Date: 10.11.13 Time: 15:56 */
 public class TweetTweet extends Post {
 
-    public TweetTweet(Date postingDate, String author, String textData) {
-        super(postingDate, author, textData);
+    //TODO число ретвитов\избранноного
+
+    public TweetTweet(Date postingDate, String author, String textData, String webLink) {
+        super(postingDate, author, textData, webLink);
     }
 }
