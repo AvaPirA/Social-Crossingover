@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/item_user_service_icon"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_alignParentTop="true" android:contentDescription="@string/content_description_service_icon"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:id="@+id/item_user_login"
+            android:layout_toRightOf="@+id/item_user_service_icon"
+            android:layout_alignTop="@+id/item_user_service_icon"
+            android:layout_marginLeft="10dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:id="@+id/item_user_date"
+            android:layout_toRightOf="@+id/item_user_service_icon"
+            android:layout_below="@+id/item_user_login"
+            android:layout_marginLeft="10dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="password_status"
+            android:id="@+id/item_user_password_status"
+            android:layout_toRightOf="@+id/item_user_service_icon"
+            android:layout_below="@+id/item_user_date"
+            android:layout_marginLeft="10dp"/>
+</RelativeLayout>

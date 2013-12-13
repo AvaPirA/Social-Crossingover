@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#ff505050">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="@string/str_first_run_hello"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"/>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/btn_account_manager"
+
+            android:layout_centerHorizontal="true"
+            android:layout_above="@android:id/tabs"
+            android:layout_marginBottom="50dp"/>
+    <TableLayout
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+        <Button
+                android:id="@+id/btn_login_vk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vk"/>
+        <Button
+                android:id="@+id/btn_login_twitter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to feed"/>
+        <Button
+                android:id="@+id/btn_login_instagram"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="XXX"/>
+    </TableLayout>
+
+</RelativeLayout>

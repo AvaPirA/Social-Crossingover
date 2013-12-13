@@ -8,19 +8,11 @@ public class Post {
     private final Date   postingDate;
     private final String author;
     private final String textData;
-    private final String webLink;
-    private final int    likes;
 
-    public Post(Date postingDate, String author, String textData, String webLink, int likes) {
+    public Post(Date postingDate, String author, String textData, String webLink) {
         this.postingDate = postingDate;
         this.author = author;
         this.textData = textData;
-        this.webLink = webLink;
-        this.likes = likes;
-    }
-
-    public int getLikes() {
-        return likes;
     }
 
     public String getTextData() {
@@ -32,9 +24,6 @@ public class Post {
         return author;
     }
 
-    public String getWebLink() {
-        return webLink;
-    }
 
     public Date getPostingDate() {
 

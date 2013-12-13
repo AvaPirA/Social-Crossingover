@@ -2,6 +2,7 @@ package com.avapir.soccingover.networking;
 
 import com.avapir.soccingover.models.Post;
 
+import java.io.InputStream;
 import java.util.List;
 
 /** User: Alpen Ditrix Date: 10.11.13 Time: 16:10 */
@@ -18,6 +19,8 @@ public interface INetworking {
 
     /** @return список из фиксированного числа постов или за фиксированное время. Это надо потом как-нибудь решить */
     public List<Post> getRecentPosts();
+
+    public InputStream requestFeed();
 
 
 //    public static void parse() {

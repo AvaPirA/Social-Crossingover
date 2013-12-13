@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social-Crossingover</string>
+    <string name="lorem_ipsum_data">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.
+    </string>
+
+    <string name="lorem_ipsum_author">Lorem Ipsum</string>
+    <string name="lorem_ipsum_date">вчера в 23:53</string>
+    <string name="lorem_ipsum_likes">17</string>
+    <string name="menu_refresh_feed">Обновить ленту</string>
+    <string name="str_first_run_hello">Привет!\nЗалогинься, чтобы начать собирать новости.</string>
+    <string name="btn_login">Войти</string>
+    <string name="str_hint_login_vk">Телефон или email</string>
+    <string name="hint_login_pass">Пароль</string>
+    <string name="str_hint_login_twitter">Логин или email</string>
+    <string name="str_hint_login_instagram">Имя пользователя</string>
+    <string name="content_description_service_icon">Network service icon</string>
+    <string name="btn_account_manager">Account Manager</string>
+    <string name="vk">ВКонтакте</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+</resources>

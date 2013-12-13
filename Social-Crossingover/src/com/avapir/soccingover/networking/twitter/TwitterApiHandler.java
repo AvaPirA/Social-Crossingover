@@ -1,6 +1,10 @@
 package com.avapir.soccingover.networking.twitter;
 
+import com.avapir.soccingover.models.Post;
 import com.avapir.soccingover.networking.INetworking;
+
+import java.io.InputStream;
+import java.util.List;
 
 /** User: Alpen Ditrix Date: 10.11.13 Time: 16:17 */
 public class TwitterApiHandler implements INetworking {
@@ -16,4 +20,18 @@ public class TwitterApiHandler implements INetworking {
     public static final String ACCESS_TOKEN_SECRET = "m9oUM4hnWhrrvErxlEiBCwBBgFexQT1mbY6GMLpMboufj";
 
 
+    @Override
+    public String login(String login, String password) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public List<Post> getRecentPosts() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public InputStream requestFeed() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
 }

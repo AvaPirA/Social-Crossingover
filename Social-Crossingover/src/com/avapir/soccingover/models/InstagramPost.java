@@ -17,7 +17,7 @@ public class InstagramPost extends Post {
                          int likes,
                          Drawable picture,
                          String filterTitle) {
-        super(postingDate, author, textData, webLink, likes);
+        super(postingDate, author, textData, webLink);
         this.picture = picture;
         this.filterTitle = filterTitle;
     }

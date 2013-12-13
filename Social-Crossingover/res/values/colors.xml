@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="vk_login_background">#ff2B587A</drawable>
+    <color name="dark_gray">#ff505050</color>
+</resources>
